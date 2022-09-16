@@ -16,6 +16,7 @@ public class Main3 {
 
         if (enBuyuk<sayi1){
             enBuyuk=sayi1;
+
         }
         if (enBuyuk<sayi2){
             enBuyuk=sayi2;
@@ -23,7 +24,7 @@ public class Main3 {
         }
         else if (sayi1==sayi2) {
             System.out.println("Girilen Sayilar Esit !");
-
+        return;
         }
         System.out.println("Girilen En Buyuk: "+ enBuyuk);
 
