@@ -1,4 +1,4 @@
-package SecondDayOdev.MiniProje5SayiBulma;
+package FirstDayOdev.MiniProje5SayiBulma;
 
 import java.util.Scanner;
 
