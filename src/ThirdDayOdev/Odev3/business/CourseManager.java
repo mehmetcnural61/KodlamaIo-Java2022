@@ -19,7 +19,7 @@ public class CourseManager {
             if (course.getName() == c.getName()) {
                 throw new Exception("Kurs ismi tekrar edemez.");
             } else if (course.getPrice() < 0) {
-                throw new Exception("Bir kursun fiyatı 0 dan küçük olamaz.");
+                throw new Exception("Bir kursun fiyati 0 dan kucuk olamaz.");
             }
         }
         courseDao.add(course);
