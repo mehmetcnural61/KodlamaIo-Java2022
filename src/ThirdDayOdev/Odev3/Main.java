@@ -30,7 +30,7 @@ public class Main {
 
         System.out.println("---");
 
-        Course course2 = new Course(2, "Swift", "Mobil Programing", 0);
+        Course course2 = new Course(4, "Swift", "Mobil Programing", 0);
         CourseManager courseManager2 = new CourseManager(new HibernateCourseDao(), loggers);
         courseManager.add(course2);
 
